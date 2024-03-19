@@ -13,7 +13,7 @@ const contractAddress = '0x5B2bC17dd9E1f6528B5cbE9d8891929940667960';
 const contract = new web3.eth.Contract(contractABI, contractAddress);
 
 const app = express();
-const port = 3000;
+const port = 3001;
 
 app.use(cors());
 // Middleware per analizzare il body delle richieste
